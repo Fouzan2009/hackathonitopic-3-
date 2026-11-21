@@ -1,2 +1,1 @@
-# hackathonitopic-3-
-WhatsApp-based flood early-warning system for Kerala. Combines river discharge forecasts for any location (Open-Meteo/GloFAS) with optional live ESP32 sensor data, then sends simple Malayalam text and voice alerts so families, especially elderly people, can act early and reduce flood damage. 
+ ESP32 landslide early-warning prototype. Four sensor nodes track rain, soil moisture, soil pressure, vibration and water flow over ESP-NOW to a hub that computes a 0-100% risk score, sounds a local alarm and shows a live 3D dashboard. Next: LoRa, GSM and GPS links for wider, remote alerts.
